@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Inter;
+    src: url('/assets/Font/Inter/Inter-VariableFont_opsz\,wght.ttf');
+}
+
+@font-face {
+    font-family: Monsterrat;
+    src: url('/assets/Font/Monsterrat/Montserrat-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: Rejection;
+    src: url('/assets/Font/Act_Of_Rejection.ttf');
+}
+
+
+.default-layout {
+    @apply w-[1024px] mx-auto
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #D1D5DB;
+    border-radius: 100vh;
+    border: 6px solid #D1D5DB;
+}
+
+:root {
+    scroll-behavior: smooth;
+}
