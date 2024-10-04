@@ -1,6 +1,6 @@
 <template>
-  <div class="font-inter">
-    <div class="w-[357px] h-[397px] mb-4">
+  <div class="text-inter">
+    <div class="w-56 h-56 xl:w-[357px] xl:h-[397px] mb-4">
       <img
         :src="cardInfo.image"
         alt=""
@@ -15,7 +15,9 @@
 
       <div class="text-xl text-white flex gap-3">
         <div>{{ cardInfo.price }}</div>
-        <div>{{ cardInfo.prevPrice }}</div>
+        <div class="line-through">
+          {{ cardInfo.prevPrice }}
+        </div>
       </div>
     </div>
   </div>

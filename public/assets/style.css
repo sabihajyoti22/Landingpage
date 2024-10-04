@@ -4,22 +4,21 @@
 
 @font-face {
     font-family: Inter;
-    src: url('/assets/Font/Inter/Inter-VariableFont_opsz\,wght.ttf');
+    src: url('./Font/Inter/static/Inter_18pt-Regular.ttf');
 }
 
 @font-face {
     font-family: Monsterrat;
-    src: url('/assets/Font/Monsterrat/Montserrat-VariableFont_wght.ttf');
+    src: url('./Font/Monsterrat/Montserrat-VariableFont_wght.ttf');
 }
 
 @font-face {
     font-family: Rejection;
-    src: url('/assets/Font/Act_Of_Rejection.ttf');
+    src: url('./Font/Act_Of_Rejection.ttf');
 }
 
-
 .default-layout {
-    @apply w-[1024px] mx-auto
+    @apply w-full xl:w-[1536px] mx-10 xl:mx-auto
 }
 
 ::-webkit-scrollbar {
@@ -35,4 +34,8 @@
 
 :root {
     scroll-behavior: smooth;
+}
+
+.text-border {
+    -webkit-text-stroke: 2px black
 }
