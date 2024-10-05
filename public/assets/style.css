@@ -18,7 +18,7 @@
 }
 
 .default-layout {
-    @apply w-full xl:w-[1536px] mx-10 xl:mx-auto
+    @apply w-full xl:w-[1536px] px-3 mx-auto
 }
 
 ::-webkit-scrollbar {

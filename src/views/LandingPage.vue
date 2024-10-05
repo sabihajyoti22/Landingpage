@@ -1,11 +1,9 @@
 <template>
   <div>
     <Navbar />
-    <div>
-      <Layout1 />
-      <Layout2 />
-      <Layout3 />
-    </div>
+    <Layout1 />
+    <Layout2 />
+    <Layout3 />
     <Footer1 />
   </div>
 </template>

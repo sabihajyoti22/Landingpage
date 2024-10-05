@@ -1,6 +1,6 @@
 <template>
   <div class="text-inter">
-    <div class="w-56 h-56 xl:w-[357px] xl:h-[397px] mb-4">
+    <div class="w-56 h-56 md:w-72 md:h-72 xl:w-[357px] xl:h-[397px] mb-4">
       <img
         :src="cardInfo.image"
         alt=""
@@ -9,7 +9,7 @@
     </div>
 
     <div class="px-2">
-      <div class="text-white mb-3">
+      <div class="text-white mb-3 font-medium">
         {{ cardInfo.name }}
       </div>
 

@@ -1,16 +1,22 @@
 <template>
   <div class="h-[80vh] xl:h-screen bg-[#EA2127] overflow-hidden">
-    <div class="default-layout h-full py-6 xl:py-[72px] flex items-end">
-      <div class="relative">
-        <div class="absolute -top-20 -left-8 font-rejection text-5xl xl:text-[140px] text-white opacity-40 z-10">
+    <div class="h-full py-6 xl:py-[72px] flex items-end">
+      <div
+        id="slide"
+        class="relative -right-[15%] xl:-right-[10%]"
+      >
+        <div class="absolute -top-[10%] xl:-top-[13%] -left-[2%] font-rejection text-5xl md:text-8xl xl:text-[140px] text-white opacity-40 z-10">
           future looks brights!
         </div>
-        <div class="flex gap-1 xl:gap-6 relative z-50">
+        <div class="flex gap-1 xl:gap-6 relative z-20">
           <div
             v-for="(item, index) in items"
             :key="index"
           >
-            <Card :card-info="item" />
+            <Card
+              :card-info="item"
+              class="transition duration-300 hover:-translate-y-3"
+            />
           </div>
         </div>
       </div>
@@ -62,3 +68,22 @@
     }
   }
 </script>
+
+<style scoped>
+#slide{
+  animation-name: slide;
+  animation-duration: 1s;
+}
+
+@keyframes slide{
+  from{
+    right: -100%;
+    opacity: 0;
+  }
+
+  to{
+    right: -15%;
+    opacity: 1;
+  }
+}
+</style>

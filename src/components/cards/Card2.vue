@@ -1,15 +1,15 @@
 <template>
-  <div class="text-inter w-56 h-56 xl:w-[357px] xl:h-[397px] p-4 bg-white rounded-xl">
+  <div class="text-inter p-4 w-full bg-white rounded-xl">
     <div class="mb-4">
       <img
         :src="cardInfo.image"
-        alt=""
-        class="w-full h-full object-cover rounded-xl"
+        :alt="cardInfo.name"
+        class="object-cover rounded-xl"
       >
     </div>
   
-    <div class="px-2">
-      <div class="text-white mb-3">
+    <div class="text-[#060606] px-2">
+      <div class="font-semibold mb-3">
         {{ cardInfo.name }}
       </div>
   
