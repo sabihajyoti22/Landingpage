@@ -68,22 +68,3 @@
     }
   }
 </script>
-
-<style scoped>
-#slide{
-  animation-name: slide;
-  animation-duration: 1s;
-}
-
-@keyframes slide{
-  from{
-    right: -100%;
-    opacity: 0;
-  }
-
-  to{
-    right: -15%;
-    opacity: 1;
-  }
-}
-</style>

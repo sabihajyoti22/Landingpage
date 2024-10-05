@@ -5,7 +5,10 @@
         Buy 1 get 1 Free <br>on <span class="text-border text-white">best selling products</span>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-3 xl:gap-6 mb-10">
+      <div
+        id="card1"
+        class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-3 xl:gap-6 mb-10"
+      >
         <div
           v-for="(item, index) in items.slice(0, length)"
           :key="index"

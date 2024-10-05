@@ -2,7 +2,7 @@
   <div>
     <div class="bg-[#111111] py-5 xl:pt-[133px] xl:pb-[120px] flex justify-center items-center">
       <div class="default-layout grid grid-cols-1 xl:grid-cols-2 gap-0 xl:gap-[85px]">
-        <div>
+        <div id="left1">
           <div class="text-white font-monsterrat text-3xl xl:text-[49px] mb-3 xl:mb-0">
             Patrick Bet-David's
           </div>
@@ -33,7 +33,10 @@
           >
         </div>
 
-        <div class="flex items-center">
+        <div
+          id="right1"
+          class="flex items-center"
+        >
           <div class="w-full">
             <img
               src="/assets/img/img (1).png"
@@ -55,7 +58,10 @@
 
     <div class="bg-gradient-to-r from-[#EC3339] to-[#BB1117] h-[16vh] md:h-[50vh] xl:h-[65vh]">
       <div class="default-layout relative h-full">
-        <div class="absolute bottom-0 flex items-center">
+        <div
+          id="layout3"
+          class="absolute bottom-0 flex items-center"
+        >
           <div class="relative">
             <img
               src="/assets/Icon/quotes.svg"

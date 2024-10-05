@@ -39,3 +39,69 @@
 .text-border {
     -webkit-text-stroke: 2px black
 }
+
+#slide {
+    animation-name: slide;
+    animation-duration: 1s;
+}
+
+@keyframes slide {
+    from {
+        right: -100%;
+        opacity: 0;
+    }
+
+    to {
+        right: -15%;
+        opacity: 1;
+    }
+}
+
+.fade-top {
+    animation: fade-top 1s ease-in;
+}
+
+@keyframes fade-top {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.fade-left {
+    animation: fade-left 1s ease-in;
+}
+
+
+@keyframes fade-left {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.fade-right {
+    animation: fade-right 1s ease-in;
+}
+
+@keyframes fade-right {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
