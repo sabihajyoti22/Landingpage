@@ -74,13 +74,14 @@
 }
 
 .fade-left {
+    display: block;
     animation: fade-left 1s ease-in;
 }
 
 
 @keyframes fade-left {
     0% {
-        transform: translateX(-100px);
+        transform: translateX(-100%);
         opacity: 0;
     }
 
@@ -96,7 +97,7 @@
 
 @keyframes fade-right {
     0% {
-        transform: translateX(100px);
+        transform: translateX(100%);
         opacity: 0;
     }
 

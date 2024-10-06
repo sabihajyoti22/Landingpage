@@ -2,7 +2,9 @@
   <div>
     <div class="bg-[#111111] py-5 xl:pt-[133px] xl:pb-[120px] flex justify-center items-center">
       <div class="default-layout grid grid-cols-1 xl:grid-cols-2 gap-0 xl:gap-[85px]">
-        <div id="left1">
+        <div
+          id="left1"
+        >
           <div class="text-white font-monsterrat text-3xl xl:text-[49px] mb-3 xl:mb-0">
             Patrick Bet-David's
           </div>
